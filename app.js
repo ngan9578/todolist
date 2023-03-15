@@ -14,7 +14,7 @@ let data = [
 const saveData = (data) => {
     localStorage.setItem(TODOLIST_TASK, JSON.stringify(data))
 }
-// saveData(data);
+saveData(data = []); 
 // ---- loadData ---
 const loadData = () => {
     let data;
@@ -22,8 +22,8 @@ const loadData = () => {
     data = JSON.parse(localStorage.getItem(TODOLIST_TASK))
     return data
 }
-// data = loadData();
-// console.log(data)
+data = loadData();
+console.log(data)
 //---- addTask---
 const addTask = (new_task) =>{
     let data;
