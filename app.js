@@ -10,16 +10,17 @@ let data = [
         is_complete: false
     }
 ]
+
 // --- saveData---
 const saveData = (data) => {
     localStorage.setItem(TODOLIST_TASK, JSON.stringify(data))
 }
-saveData(data = []); 
+// saveData(data);
 // ---- loadData ---
 const loadData = () => {
     let data;
-    data = data?data:[];
     data = JSON.parse(localStorage.getItem(TODOLIST_TASK))
+    data = data?data:[];
     return data
 }
 data = loadData();
