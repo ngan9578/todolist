@@ -1,3 +1,4 @@
+Xây dựng dự dán Todolist: sử dụng làm danh sách ghi chú những việc bạn cần làm hoặc muốn làm và theo dõi các công việc bạn muốn thực hiện
 1. Thiết kế HTML
 2. Thiết kế css
 3. Phân tích và thiết kế nơi lưu trữ dữ liệu
